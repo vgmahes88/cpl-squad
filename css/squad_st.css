@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'DIN-Black';
+  src: url('../fonts/DIN-Black.eot?#iefix') format('embedded-opentype'),
+	   url('../fonts/DIN-Black.otf')  format('opentype'),
+	   url('../fonts/DIN-Black.woff') format('woff'), 
+	   url('../fonts/DIN-Black.ttf')  format('truetype'), 
+	   url('../fonts/DIN-Black.svg#DIN-Black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body
+{
+	 font-family: 'DIN-Black';
+}
+.cplsquad_cc
+{
+  width:1920px;
+  height:1080px;
+  background-image:url("../img/draft_squad_final_bg.png");
+  background-size:100% 100%;
+}
+.squad_header
+{
+	background-image:url("../img/squad_header.png");
+	background-size:100% 100%;
+}
+.cpl_squad_thead h2,
+.cpl_squad_thead h3
+{
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 12px;
+	font-size: 40px;
+}
+.cpl_squad_bmhead
+{
+	background-image:url("../img/squad_row.png");
+	background-size:100% 100%;
+	height:58px;
+	margin-bottom:5px;
+}
+.cpl_squad_player_bg
+{
+	background-image:url("../img/player_name_bg.png");
+	background-size:100% 100%;
+	height:58px;
+	margin-bottom:5px;
+}
+.cpl_squad_btmn h2
+{
+	font-size:40px;
+	margin-top:5px;
+	text-align:center;
+}
+.cpl_squad_btmn h3
+{
+	font-size: 25px;
+	margin-top: 10px;
+	letter-spacing: 2px;
+}
+.cpl_squad_btmn h2,
+.cpl_squad_btmn h3
+{
+	text-transform:uppercase;
+	color:#fff;
+	font-weight:bold;
+	
+}
+.cpl_dftfooter  h3 a:hover
+{
+	text-decoration:none;
+}
+.cpl_dftfooter  h3
+{
+	margin-top:0px;
+}
+
+.cpl_dftfooter  h3 a
+{
+	color:#fff;
+	text-transform:uppercase;
+}
+.cpl_bowlers,.squad_bat
+{
+	padding:10px;
+}
